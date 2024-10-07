@@ -1,0 +1,11 @@
+[gd_scene load_steps=3 format=3 uid="uid://dk62bc2np5dqy"]
+
+[ext_resource type="Texture2D" uid="uid://brc7ye0lhrgls" path="res://cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIzLTA4L3Jhd3BpeGVsb2ZmaWNlNl9waG90b19vZl9hX211bmNoa2luX2NhdF9zYXVzYWdlX2NhdF9jYXRfbGlmZWxpa18yOTI3MDJmMy1kYmMyLTQxNTItYWE3OS0xNDU2YzY4NjI0ZmIucG5n.png.webp" id="1_6cf3n"]
+[ext_resource type="Script" path="res://enemy.gd" id="2_y6u7j"]
+
+[node name="enemy" type="Sprite2D"]
+modulate = Color(1, 0.36, 0.36, 1)
+position = Vector2(287, 382)
+scale = Vector2(0.237822, 0.237822)
+texture = ExtResource("1_6cf3n")
+script = ExtResource("2_y6u7j")
